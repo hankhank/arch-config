@@ -7,7 +7,7 @@
 #
 #==============================================================================
 
-background yes
+background no
 update_interval 1
 
 cpu_avg_samples 2

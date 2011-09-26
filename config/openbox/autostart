@@ -18,3 +18,4 @@
 pypanel & 
 conky -c ~/.conky/conkyrc_orange &
 nitrogen --restore &
+urxvtd -q -f
