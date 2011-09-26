@@ -43,8 +43,8 @@ uppercase no
 
 default_color FFFFFF
 color1 DDDDDD
-color2 AAAAAA
-color3 888888
+color2 CCCCCC
+color3 AAAAAA
 color4 EF5A29
 
 lua_load ~/.conky/conky_orange.lua
@@ -76,7 +76,7 @@ ${goto 90}${font Ubuntu:size=7,weight:normal}${color1}${top_mem name 1}${alignr}
 ${goto 90}${font Ubuntu:size=7,weight:normal}${color2}${top_mem name 2}${alignr}${top_mem mem 2}%
 ${goto 90}${font Ubuntu:size=7,weight:normal}${color3}${top_mem name 3}${alignr}${top_mem mem 3}%
 
-${voffset 15}
+${voffset 25}
 ${goto 90}${font Ubuntu:size=7,weight:bold}${color}DISKS
 
 ${goto 90}${diskiograph 30,100 666666 666666}${voffset -30}
