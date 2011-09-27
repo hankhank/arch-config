@@ -10,3 +10,9 @@ URxvt*scrollColor:        #000000
 URxvt*depth: 32
 URxvt*background: [80]Black
 URxvt*foreground:       #cccccc
+URxvt*perl-ext-common : tabbed
+URxvt*tabbed.tabbar-fg: 5
+URxvt*tabbed.tabbar-bg: 0
+URxvt*tabbed.tab-fg:    14
+URxvt*tabbed.tab-bg:    0
+URxvt*termName: rxvt-256color
