@@ -269,6 +269,50 @@
         <action name="ToggleMaximize"/>
       </keybind>
     </keybind>
+    <keybind key="W-w">
+      <keybind key="Right">
+        <action name="MoveToEdgeEast"/>
+      </keybind>
+    </keybind>
+    <keybind key="W-w">
+      <keybind key="Left">
+        <action name="MoveToEdgeWest"/>
+      </keybind>
+    </keybind>
+    <keybind key="W-w">
+      <keybind key="Up">
+        <action name="MoveToEdgeNorth"/>
+      </keybind>
+    </keybind>
+    <keybind key="W-w">
+      <keybind key="Down">
+        <action name="MoveToEdgeSouth"/>
+      </keybind>
+    </keybind>
+    <keybind key="W-w">
+      <keybind key="S-Up">
+         <action name="UnmaximizeFull"/>
+         <action name="GrowToEdgeNorth"/>
+      </keybind>
+    </keybind>
+    <keybind key="W-w">
+      <keybind key="S-Down">
+         <action name="UnmaximizeFull"/>
+         <action name="GrowToEdgeSouth"/>
+      </keybind>
+    </keybind>
+    <keybind key="W-w">
+      <keybind key="S-Left">
+         <action name="UnmaximizeFull"/>
+         <action name="GrowToEdgeWest"/>
+      </keybind>
+    </keybind>
+    <keybind key="W-w">
+      <keybind key="S-Right">
+         <action name="UnmaximizeFull"/>
+         <action name="GrowToEdgeEast"/>
+      </keybind>
+    </keybind>
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
       <action name="NextWindow">
@@ -339,7 +383,7 @@
         <command>urxvtc</command>
       </action>
     </keybind>
-    <keybind key="W-w">
+    <keybind key="W-b">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
