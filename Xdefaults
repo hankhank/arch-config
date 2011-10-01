@@ -2,7 +2,7 @@
 ! u r x v t
 
 URxvt*geometry:         112x22  
-URxvt*font:            xft:cure:size=8
+URxvt*font:            xft:Droid Sans Mono:size=9
 URxvt*urlLauncher:         chromium  
 URxvt*scrollBar:        false
 URxvt*scrollBar_right:        true
@@ -15,3 +15,32 @@ URxvt*tabbed.tabbar-fg: 5
 URxvt*tabbed.tabbar-bg: 0
 URxvt*tabbed.tab-fg:    14
 URxvt*tabbed.tab-bg:    0
+
+
+! tangoesque scheme
+*background: #111111
+*foreground: #babdb6
+! Black (not tango) + DarkGrey
+*color0:  #000000
+*color8:  #555753
+! DarkRed + Red
+*color1:  #ff6565
+*color9:  #ff8d8d
+! DarkGreen + Green
+*color2:  #93d44f
+*color10: #c8e7a8
+! DarkYellow + Yellow
+*color3:  #eab93d
+*color11: #ffc123
+! DarkBlue + Blue
+*color4:  #204a87
+*color12: #3465a4
+! DarkMangenta + Mangenta
+*color5:  #ce5c00
+*color13: #f57900
+!DarkCyan + Cyan (both not tango)
+*color6:  #89b6e2
+*color14: #46a4ff
+! LightGrey + White
+*color7:  #cccccc
+*color15: #ffffff

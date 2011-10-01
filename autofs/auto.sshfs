@@ -1,0 +1,1 @@
+home -ftype=fuse,rw,allow_other,IdentityFile=/home/andrew/.ssh/id_dsa :sshfs\#andrew@h.sideramota.com\:/home/andrew
