@@ -83,6 +83,11 @@ ${goto 90}${diskiograph 30,100 666666 666666}${voffset -30}
 ${goto 90}${font Ubuntu:size=7,weight:normal}${color}used: ${fs_used /home} /home
 ${goto 90}${font Ubuntu:size=7,weight:normal}${color}used: ${fs_used /} /
 
+${voffset 20}
+${goto 90}${font Ubuntu:size=7,weight:bold}${color}BATTERY
+${goto 90}${font Ubuntu:size=7,weight:normal}${color3}Status: ${color1}${battery}
+${goto 90}${font Ubuntu:size=7,weight:normal}${color3}Time Left: ${color1}${battery_time}
+
 ${voffset 10}
 ${goto 70}${font Ubuntu:size=18,weight:bold}${color3}NET${alignr}${color2}${voffset -15}
 ${goto 90}${font Ubuntu:size=7,weight:bold}${color}eth: ${color1}${addr eth0}
