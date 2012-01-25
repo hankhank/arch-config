@@ -17,7 +17,7 @@ set number
 set smartcase
 set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
 set laststatus=2
-set csprg=p:\cscope.exe
+set csprg=cscope
 command Q q
 map <S-Enter> O<Esc>
 map <CR> o<Esc>

@@ -53,7 +53,7 @@ search_engines = {
     luakit      = "http://luakit.org/search/index/luakit?q=%s",
     google      = "http://google.com/search?q=%s",
     duckduckgo  = "http://duckduckgo.com/?q=%s",
-    wikipedia   = "http://en.wikipedia.org/wiki/Special:Search?search=%s",
+    wiki        = "http://en.wikipedia.org/wiki/Special:Search?search=%s",
     debbugs     = "http://bugs.debian.org/%s",
     imdb        = "http://imdb.com/find?s=all&q=%s",
     sourceforge = "http://sf.net/search/?words=%s",

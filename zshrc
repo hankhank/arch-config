@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="hankbira"
+ZSH_THEME="sorin"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -75,7 +75,7 @@ zstyle ':completion:*:cd:*' ignore-parents parent pwd
 # http://mundy.yazzy.org/unix/zsh.php
 # http://www.zsh.org/mla/users/2000/msg00727.html
 
-bindkey '-v' 
+#bindkey '-v' 
 
 ##################################################################
 # My aliases

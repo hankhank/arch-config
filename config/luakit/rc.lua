@@ -126,7 +126,7 @@ require "completion"
 -- `,ts` to toggle scripts, `,tp` to toggle plugins, `,tr` to reset.
 -- Remove all "enable-scripts" & "enable-plugins" lines from your
 -- domain_props table (in config/globals.lua) as this module will conflict.
---require "noscript"
+require "noscript"
 
 require "follow_selected"
 require "go_input"

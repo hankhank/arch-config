@@ -407,6 +407,16 @@
         <execute>amixer sset Master toggle</execute>
       </action>
     </keybind>
+    <keybind key="XF86MonBrightnessDown">
+      <action name="Execute">
+        <execute>xbacklight - 10 time 100</execute>
+      </action>
+    </keybind>
+    <keybind key="XF86MonBrightnessUp">
+      <action name="Execute">
+        <execute>xbacklight + 10 time 100</execute>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
