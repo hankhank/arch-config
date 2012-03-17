@@ -56,10 +56,10 @@ lua_draw_hook_post main
 #
 #${voffset 70}
 
-
+# Day, month, year text
 TEXT
 ${voffset 35}
-${goto 95}${color4}${font ubuntu:size=22}${time %e}${color1}${offset -50}${font ubuntu:size=10}${time %A}
+${goto 95}${color4}${font ubuntu:size=22}${time %e}${color1}${voffset 10}${offset -50}${font ubuntu:size=10}${time %A}
 ${goto 85}${color2}${voffset -2}${font ubuntu:size=9}${time %b}${voffset -2} ${color3}${font ubuntu:size=12}${time %Y}${font}
 
 ${voffset 80}

@@ -18,6 +18,10 @@ set smartcase
 set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
 set laststatus=2
 set csprg=cscope
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
 command Q q
 map <S-Enter> O<Esc>
 map <CR> o<Esc>

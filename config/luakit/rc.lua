@@ -96,6 +96,11 @@ require "bookmarks"
 -- Add download support
 require "downloads"
 require "downloads_chrome"
+downloads.default_dir = os.getenv("HOME") .. "/Downloads" 
+-- downloads:add_signal("download-location", function (uri, suggested_filename)
+--     return downloads.default_dir .. "/" .. (suggested_filename or
+--     string.match(uri, "/([^/]+)$") or "unnamed")
+--     end)
 
 -- Add vimperator-like link hinting & following
 -- (depends on downloads)
