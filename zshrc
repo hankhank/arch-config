@@ -111,9 +111,13 @@ alias ..='cd ..'
 alias hist="grep '$1' $HOME/.zsh_history"
 alias irssi="irssi -c irc.freenode.net -n hank"
 alias mem="free -m"
+alias findcscope="find . -iname \"*.cpp\" -or -iname \"*.c\" -or -iname \"*.h\" -or -iname \"*.hpp\" > cscope.files; cscope -b"
 
 # command L equivalent to command |less
 alias -g L='|less' 
 
 # command S equivalent to command &> /dev/null &
 alias -g S='&> /dev/null &'
+
+export CVSROOT=:ext:andrewh@cvs.indianpacific.com.au:/cvs
+export CVS_RSH=ssh

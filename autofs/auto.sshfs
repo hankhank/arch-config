@@ -1,1 +1,2 @@
-home    -ftype=fuse,rw,allow_other,IdentityFile=/home/andrew/.ssh/id_dsa :sshfs\#andrew@h.sideramota.com\:/home/andrew
+home -fstype=fuse,rw,nodev,nonempty,allow_other,IdentityFile=/home/andrew/.ssh/id_rsa,port=443 :sshfs\#andrew@h.sideramota.com\:/home/andrew
+SafePlace -fstype=fuse,rw,nodev,nonempty,allow_other,IdentityFile=/home/andrew/.ssh/id_rsa,port=443 :sshfs\#andrew@h.sideramota.com\:/mnt/SafePlace
